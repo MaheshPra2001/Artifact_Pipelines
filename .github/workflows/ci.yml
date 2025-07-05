@@ -19,7 +19,7 @@ jobs:
             - name: Install Dependencies
               run:  npm ci 
             - name: Run Test
-              run:  npm test 
+              run:  jest 
 
             - name: Package build output as ZIP
               run: |
