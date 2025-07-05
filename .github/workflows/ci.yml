@@ -19,7 +19,8 @@ jobs:
             - name: Install Dependencies
               run:  npm ci 
             - name: Run Test
-              run:  jest 
+              run:  npm test
+
 
             - name: Package build output as ZIP
               run: |
